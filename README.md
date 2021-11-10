@@ -27,4 +27,36 @@ module.exports = {
 .vscode.settings.json
 ```
 
+### 配置  git commit hook
+
+- 使用 staged 插件
+- 地址 https://www.npmjs.com/package/lint-staged
+- 使用
+```sh
+npx mrm@2 lint-staged
+```
+- 主要安装 
+    - husky 作用是 拦截 git 提交
+    - lint-staged  作用是 拿到待提交的代码
+- 配置
+```json
+// package.json
+{
+    ...
+    "lint-staged": {
+        "*.{html,vue,css,sass,scss,less}": [
+          "npm run lint:css"
+        ]
+    }，
+    "gitHooks": {
+        "pre-commit": "lint-staged"
+    }
+}
+
+```
+- 没有必要 不使用 
+
+
+
+
 
