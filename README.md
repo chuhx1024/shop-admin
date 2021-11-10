@@ -85,6 +85,31 @@ module.exports = {
 }
 ````
 
+### 项目 Git commit 规范
+```
+build:	对构建系统或者外部依赖项进行了修改。
+ci:	对 CI 配置文件或脚本进行了修改。
+perf:	优化相关，比如提升性能、体验。
+revert:	回滚到上一个版本。
+feat：新功能（feature）
+fix：修补bug
+docs：新增或修改文档。
+style： 不影响代码含义的修改，比如空格、格式化、缺失的分号等，注意不是 css 修改
+refactor：重构（即不是新增功能，也不是修改bug的代码变动）
+test：增加测试
+chore：构建过程或辅助工具的变动
+```
+（1）使用第一人称现在时，比如使用change而不是changed或changes。
+
+（2）应该说明代码变动的动机，以及与以前行为的对比。
+
+- 相关工具：
+    - commitlint：验证 git commit 日志是否符合规范 (https://github.com/conventional-changelog/commitlint)
+    - Commitizen：辅助编写符合 git commit 规范的工具
+
+
+
+
 
 
 
