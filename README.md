@@ -18,3 +18,13 @@ module.exports = {
         'standard',
     ],
 ```
+### eslint 和 Vs Code 集成
+- 禁用 vetur
+- 安装 ESlint 插件
+- 安装 Volar
+- 配置
+```js
+.vscode.settings.json
+```
+
+
