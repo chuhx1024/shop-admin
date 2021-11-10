@@ -23,4 +23,7 @@ module.exports = {
         'comma-dangle': [2, 'always-multiline'], // 对象 数据 分行显示的 结尾必须加 ','
         'quote-props': 0,
     },
+    'globals': {
+        defineProps: true,
+    },
 }

@@ -56,3 +56,48 @@ npx mrm@2 lint-staged
 ```
 - 没有必要 不使用 
 
+### 安装插件 eslint 不通过  编译报错
+
+- 安装
+``sh
+yarn add vue-eslint-plugin -D
+```
+
+- 配置
+```js
+//vite.config.ts
+export default defineConfig({
+    plugins: [
+        vue(),
+        eslintPlugin({}),
+    ],
+})
+``
+- 修改 .eslintrc.js
+```js
+module.exports = {
+  globals: {
+    defineProps: "readonly",
+    defineEmits: "readonly",
+    defineExpose: "readonly",
+    withDefaults: "readonly"
+  }
+}
+````
+
+
+
+
+
+
+
+
+
+## 笔记
+
+https://www.yuque.com/books/share/84a225ba-970e-46ee-9e72-b09a297d75fe?#（密码：slzd） 《【Vue 3 + TS 项目实战】统】
+
+## 代码
+
+https://gitee.com/lipengzhou/shop-admin
+
