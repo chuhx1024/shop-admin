@@ -3,8 +3,7 @@
         alt="Vue logo"
         src="./assets/logo.png"
     >
-    123
-    <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+    <HelloWorld msg="Hello Vue 3 + TypeScript + Vite123" />
 </template>
 
 <script setup lang="ts">

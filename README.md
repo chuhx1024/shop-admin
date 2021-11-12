@@ -1,6 +1,4 @@
 # Vue 3 + Typescript + Vite
-
-
 ### 关于eslint 
 - 修复 : eslint 后的匹配要加上 引号
 ```
@@ -62,7 +60,6 @@ npx mrm@2 lint-staged
 ``sh
 yarn add vue-eslint-plugin -D
 ```
-
 - 配置
 ```js
 //vite.config.ts
@@ -83,7 +80,7 @@ module.exports = {
     withDefaults: "readonly"
   }
 }
-````
+```
 
 ### 项目 Git commit 规范
 ```
@@ -108,6 +105,45 @@ chore：构建过程或辅助工具的变动
     - Commitizen：辅助编写符合 git commit 规范的工具
 
 
+### Vite 项目中的TS环境说明
+- https://vitejs.cn/guide/why.html
+- vite 原生支持 ts  但是不会做ts 的校验
+- 执行 yarn build 时才会校验  "build": "vue-tsc --noEmit && vite build",  vue-tsc 就是校验的
+
+
+### 如何编写 组件
+- <script lang="ts">
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -125,4 +161,3 @@ https://www.yuque.com/books/share/84a225ba-970e-46ee-9e72-b09a297d75fe?#（密�
 ## 代码
 
 https://gitee.com/lipengzhou/shop-admin
-
