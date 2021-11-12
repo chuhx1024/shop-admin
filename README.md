@@ -115,6 +115,12 @@ chore：构建过程或辅助工具的变动
 - <script lang="ts">
 - 
 
+### vite 默认不支持 JSX TSX  需要安装官方插件
+- https://vitejs.cn/plugins/#vitejs-plugin-vue-jsx
+- https://www.npmjs.com/package/@vitejs/plugin-vue-jsx
+
+
+
 
 
 

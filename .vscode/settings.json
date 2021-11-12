@@ -11,7 +11,8 @@
         "html",
         "css",
         "jsx",
-        "js"
+        "js",
+        "tsx"
     ],
     "vetur.format.defaultFormatter.html": "none",
     "vetur.format.defaultFormatter.js": "none",
