@@ -120,9 +120,19 @@ chore：构建过程或辅助工具的变动
 - https://www.npmjs.com/package/@vitejs/plugin-vue-jsx
 
 ### 安装 vue-router
-```js
+```sh
 npm install vue-router@4
 ```
+
+### 安装 Vuex
+```sh
+yarn add vuex@next 
+```
+- 配置 ts interface 
+
+
+
+
 
 
 
