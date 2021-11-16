@@ -6,6 +6,7 @@
     <HelloWorld msg="Hello Vue 3 + TypeScript + Vite123" />
     <TsxDemo />
     <Tsx />
+    <router-view />
 </template>
 
 <script setup lang="ts">

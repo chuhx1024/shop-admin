@@ -119,6 +119,11 @@ chore：构建过程或辅助工具的变动
 - https://vitejs.cn/plugins/#vitejs-plugin-vue-jsx
 - https://www.npmjs.com/package/@vitejs/plugin-vue-jsx
 
+### 安装 vue-router
+```js
+npm install vue-router@4
+```
+
 
 
 
