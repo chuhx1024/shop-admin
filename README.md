@@ -130,6 +130,26 @@ yarn add vuex@next
 ```
 - 配置 ts interface 
 
+### 配置 @ 别名
+- 如果 path 报错 安装 yarn add #type/node -D
+```js
+//vite.config.ts
+resolve: {
+    alias: {
+        '@': path.join(__dirname, 'src'),
+    },
+},
+```
+
+```js
+// tsconfig.json  // 解决ts 报错
+ "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+```
+
 
 
 
