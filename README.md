@@ -150,6 +150,19 @@ resolve: {
     }
 ```
 
+### 项目中使用 scss less
+- 只用安装包就可以 0 配置
+```sh
+# .scss and .sass
+npm install -D sass
+
+# .less
+npm install -D less
+
+# .styl and .stylus
+npm install -D stylus
+```
+
 
 
 

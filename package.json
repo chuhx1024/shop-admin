@@ -24,6 +24,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.1",
     "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.43.4",
     "stylelint": "^14.0.1",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^23.0.0",

@@ -14,7 +14,7 @@ const store = useStore()
 console.log(store.state.count)
 
 </script>
-<style scoped>
+<style lang="scss" scoped>
 .box {
     width: 100px;
     height: 100px;
